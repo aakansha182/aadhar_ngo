@@ -1,0 +1,79 @@
+#footer {
+    background-color: #333;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 0 20px; /* Add padding on the left and right */
+  }
+  
+  #footer-content {
+    max-width: 1200px;
+    margin: 0 auto; /* Center the footer content */
+    display: flex;
+    justify-content: space-between; /* Maximum space between the columns */
+    flex-wrap: wrap;
+    padding: 10px; /* Increase padding inside the footer content */
+  }
+  
+  .footer-logo img {
+    height: 200px; /* Control the size of the logo */
+    width: auto;
+    max-width: 100%;
+    padding-right: 10px; /* Padding to separate the logo from the first column */
+  }
+  
+  .footer-column {
+    padding: 20px;
+    margin-right: 5px; /* Increase space between columns */
+  }
+  
+  .footer-column h4 {
+    margin-bottom: 15px;
+  }
+  
+  .footer-column p,
+  .footer-column a {
+    margin-bottom: 10px;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+  }
+  
+  /* Hover effect for paragraphs and links */
+  .footer-column a:hover,
+  .footer-column p:hover {
+    color: #4CAF50; /* Example hover color */
+    cursor: pointer; /* Indicates that the item is clickable */
+  }
+  
+  /* Space between icon and text for each link */
+  .footer-column a {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Icon transitions for hover effect */
+  .footer-column a svg {
+    margin-right: 8px;
+    transition: transform 0.3s ease; /* Smooth transition for transform */
+  }
+  
+  /* Hover effect for icons */
+  .footer-column a svg:hover {
+    transform: scale(1.1); /* Slightly enlarges the icon */
+  }
+  
+  /* Responsive adjustments for mobile */
+  @media (max-width: 768px) {
+    .footer-logo img {
+      height: 200px; /* Smaller size for mobile */
+    }
+  
+    #footer-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-column {
+      margin-right: 0;
+      margin-bottom: 10px; /* Increase bottom margin when columns stack */
+    }
+  }
+  

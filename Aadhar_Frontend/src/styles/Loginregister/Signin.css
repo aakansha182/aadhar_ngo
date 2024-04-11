@@ -1,0 +1,104 @@
+/* SignIn Component Styles */
+.section-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Split the container into two equal columns */
+    gap: 2rem;
+    align-items: center; /* Center items vertically */
+    margin-top: 2rem; /* Add margin to push the container down */
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .form-wrapper {
+    max-width: 32rem;
+    width: 100%;
+    padding: 2rem;
+    background: linear-gradient(to right bottom, #e0afaf, #e59599);
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1rem rgba(222, 112, 112, 0.1);
+  }
+  
+  .form-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 1rem;
+    text-align: center; /* Center the title */
+  }
+  
+  .form-field {
+    width: 100%;
+    margin-bottom: 1.5rem; /* Increase space between fields */
+  }
+  
+  .input-label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: hsl(0, 0%, 0%);
+    margin-bottom: 0.5rem;
+  }
+  
+  .input-wrapper {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(31, 29, 29, 0.3);
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    color: #ffffff;
+    padding-left: 30px; /* Adjust padding to accommodate the icon */
+  }
+  
+  .input-field::placeholder {
+    color: #cccccc;
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 1rem;
+    background-color: #ffffff;
+    color: #4e54c8;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #8f94fb;
+  }
+  
+  .image-container {
+    flex: 1;
+    background-size: cover; /* Cover ensures the background covers the area without stretching */
+    background-position: center; /* Center the background image */
+  }
+  .image {
+    width: 100%; /* Set image width to 100% */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 0.5rem;
+    margin-top: 2rem; /* Add margin to push the image down */
+  }
+  
+  /* Icon styles */
+  .input-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  /* Signin.css */
+  
